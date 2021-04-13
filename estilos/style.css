@@ -10,6 +10,9 @@
     --font-secundary: "Arial", serif;
     --font-action: "Times New Roman", serif;
 }
+
+/* Icone Hamburguer */
+
 .hamburguer{
     width: 2rem;
     height: 2rem;
@@ -52,13 +55,13 @@
     background-color: white;
     align-items: center;
     font-family: var(--font-primary);
-    opacity: 0;
+    opacity: 0;    
 }
 .show-menu .hamburguer:hover span{
     opacity: 1;
 }
 
-/* Cabeçalho*/
+/* Cabeçalho */
 
 header{
     width: 100%;
@@ -83,7 +86,7 @@ nav#rede ul {
     list-style: none;   
     position: absolute;
     top: 20px;
-    padding-left: 1000px;    
+    right: 5rem;   
 }
 nav#rede li {
     display: inline-block;
@@ -98,7 +101,7 @@ nav#rede li:hover {
     background-color: #333333;
 }
 
-/*Menu do Hamburguer*/
+/* Menu do Hamburguer */
 
 .sidebar{
     width: 20rem;
@@ -130,4 +133,42 @@ nav#rede li:hover {
 }
 .menu-link:hover{   
     color: black;
+}
+
+/* Menu Principal */
+
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 550px;
+    left: 14rem;
+}
+nav#menu li{
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    margin: -2px;
+    transition: background-color 1s;
+    font-family: Geometr415 Blk BT, sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,.7);
+}
+nav#menu li:hover{
+    background-color: #333333;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: #ffffff;
 }
