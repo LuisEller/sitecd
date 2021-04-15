@@ -342,15 +342,92 @@ nav#menu a:hover{
 
 /* Contatos */
 
-#contatos{
+.sessao-contatos{
     width: 100%;
-    height: 100vh;
-    background-color: white;
+    height: 100vh;       
+    display: flex;
+    flex-direction: column;
+    background-color: white;    
+    align-items: center;
+    justify-content: center;
 }
-#contatos h1{
+.contatos-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.contatos-header h1{
     text-align: center;
     font-family: var(--font-primary);
     font-size: 35px;
     color: black; 
-    padding: 50px 0px 30px 0px;     
+    padding: 0px 0px 30px 0px;     
+}
+.contatos-wrapper{
+    width: 85%;
+    height: 30rem;
+    display: flex;      
+}
+.contatos-left{
+    width: 65%;    
+    padding: 0rem 8rem;
+}
+.contatos-right{
+    width: 35%;   
+    font-family: var(--font-primary);
+    text-align: justify;
+}
+.contatos-right h3{      
+    font-family: var(--font-primary);
+    text-align: justify;
+    text-align: center;
+    padding: 1.5rem;
+}
+.contatos-right p{      
+    font-family: var(--font-primary);
+    text-align: justify;
+}
+.sessao-contatos form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.field-group{
+    position: relative;
+    padding: 30px;
+}
+.field-group textarea{
+    padding-top: 0.5rem;
+    max-width: 21rem;
+    max-height: 5rem;
+    height: 5rem;
+}
+.field{
+    background: transparent;
+    border: solid #b3b3b3;
+    width: 21rem;
+    font-size: 1rem;
+    font-family: var(--font-secundary);   
+    height: 2rem;
+    outline: none; 
+    float: right;   
+}
+.field-label{    
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    position: absolute;    
+}
+.btn_submit{
+    text-transform: uppercase;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: gray;
+    background: linear-gradient(#666666, #999);
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    color: white;
+    border-radius: .5rem;     
+    cursor: pointer;
+    margin-left: 23.5rem; 
+    margin-top: 0.5rem;  
 }
