@@ -81,6 +81,7 @@ header{
 
 nav#rede {
     display: block;
+    cursor: pointer;
 }
 nav#rede ul {
     list-style: none;   
@@ -467,6 +468,7 @@ footer{
 
 .rede {
     display: block;
+    cursor: pointer;
 }
 .rede ul {
     list-style: none;   
@@ -475,8 +477,7 @@ footer{
 }
 .rede li {
     display: inline-block;
-    width: 35px;    
-    background-color none;
+    width: 35px;        
     padding: 10px;
     margin: 5px;
     transition: background-color 1s;      
