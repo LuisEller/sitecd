@@ -11,6 +11,10 @@
     --font-action: "Times New Roman", serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Icone Hamburguer */
 
 .hamburguer{
@@ -112,6 +116,7 @@ nav#rede li:hover {
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 50;
 }
 .show-menu .sidebar{
     right: 0;
